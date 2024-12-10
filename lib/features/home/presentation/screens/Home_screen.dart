@@ -27,9 +27,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     final dataMap = <String, double>{
-      "Flutter": 5,
-      "React": 3,
-      "Ionic": 2,
+      "Flutter": 50,
+      "React": 30,
+      "Ionic": 20,
     };
     return SafeArea(
       top: false,
@@ -39,145 +39,145 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
             child:  Column(
               children: [
                 10.verticalSpace,
-                // Row(
-                //   children: [
-                //     Expanded(
-                //       flex: 1,
-                //       child:
-                //       Card(
-                //         elevation: 5,
-                //         margin: EdgeInsets.all(10.w),
-                //         color:AppColors.home_card_orders ,
-                //         shape: RoundedRectangleBorder(
-                //           borderRadius: BorderRadius.circular(20),
-                //         ),
-                //         child: Container(
-                //             alignment: Alignment.center,
-                //             child: Stack(
-                //               alignment: Alignment.bottomLeft,
-                //               children: [
-                //                 Opacity(
-                //                   opacity: 0.1,
-                //                   child: SvgPicture.asset(
-                //                       ImgAssets.home_card_shape
-                //                   ),
-                //                 ),
-                //                 Column(
-                //                   children: [
-                //                     5.verticalSpace,
-                //                     Text(AppLocalizations.of(context)!.today_orders,
-                //                       style: const TextStyle(
-                //                           color: Colors.white,
-                //                           fontWeight: FontWeight.bold,
-                //                           fontSize: AppDimens.xxLargeFontSize
-                //                       ),
-                //                     ),
-                //                     const Text("50",
-                //                       style: TextStyle(
-                //                           color: Colors.white,
-                //                           fontWeight: FontWeight.w900,
-                //                           fontSize: AppDimens.xxxLargeFontSize
-                //                       ),
-                //                     ),
-                //
-                //                     Row(
-                //                       mainAxisAlignment: MainAxisAlignment.center,
-                //                       children: [
-                //                         const Text("34.5",
-                //                           style: TextStyle(
-                //                               color: Colors.white,
-                //                               fontWeight: FontWeight.bold,
-                //                               fontSize: AppDimens.xxLargeFontSize
-                //                           ),
-                //                         ),
-                //                         10.horizontalSpace,
-                //                         SvgPicture.asset(ImgAssets.arrow_down)
-                //                       ],
-                //                     ),
-                //                     Text(AppLocalizations.of(context)!.compared_to_last_week,
-                //                       style: const TextStyle(
-                //                           color: Colors.white,
-                //                           fontSize: AppDimens.smallFontSize
-                //                       ),
-                //                     ),
-                //                     5.verticalSpace
-                //                   ],
-                //                 )
-                //
-                //               ],
-                //             )),
-                //       ),
-                //     ),
-                //     Expanded(
-                //       flex: 1,
-                //       child:
-                //       Card(
-                //         elevation: 5,
-                //         margin: EdgeInsets.all(10.w),
-                //         color:AppColors.home_card_revenue ,
-                //         shape: RoundedRectangleBorder(
-                //           borderRadius: BorderRadius.circular(20),
-                //         ),
-                //         child: Container(
-                //             alignment: Alignment.center,
-                //             child: Stack(
-                //               alignment: Alignment.bottomLeft,
-                //               children: [
-                //                 Opacity(
-                //                   opacity: 0.1,
-                //                   child: SvgPicture.asset(
-                //                       ImgAssets.home_card_shape
-                //                   ),
-                //                 ),
-                //                 Column(
-                //                   children: [
-                //                     5.verticalSpace,
-                //                     Text(AppLocalizations.of(context)!.today_revenue,
-                //                       style: const TextStyle(
-                //                           color: Colors.white,
-                //                           fontWeight: FontWeight.bold,
-                //                           fontSize: AppDimens.xxLargeFontSize
-                //                       ),
-                //                     ),
-                //                     const Text("\u0024 150",
-                //                       style: TextStyle(
-                //                           color: Colors.white,
-                //                           fontWeight: FontWeight.w900,
-                //                           fontSize: AppDimens.xxxLargeFontSize
-                //                       ),
-                //                     ),
-                //
-                //                     Row(
-                //                       mainAxisAlignment: MainAxisAlignment.center,
-                //                       children: [
-                //                         const Text("17.5",
-                //                           style: TextStyle(
-                //                               color: Colors.white,
-                //                               fontWeight: FontWeight.bold,
-                //                               fontSize: AppDimens.xxLargeFontSize
-                //                           ),
-                //                         ),
-                //                         10.horizontalSpace,
-                //                         SvgPicture.asset(ImgAssets.arrow_up,)
-                //                       ],
-                //                     ),
-                //                     Text(AppLocalizations.of(context)!.compared_to_last_week,
-                //                       style: const TextStyle(
-                //                           color: Colors.white,
-                //                           fontSize: AppDimens.smallFontSize
-                //                       ),
-                //                     ),
-                //                     5.verticalSpace
-                //                   ],
-                //                 )
-                //
-                //               ],
-                //             )),
-                //       ),
-                //     ),
-                //
-                //   ],
-                // ),
+                Row(
+                  children: [
+                    Expanded(
+                      flex: 1,
+                      child:
+                      Card(
+                        elevation: 5,
+                        margin: EdgeInsets.all(10.w),
+                        color:AppColors.home_card_orders ,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Container(
+                            alignment: Alignment.center,
+                            child: Stack(
+                              alignment: Alignment.bottomLeft,
+                              children: [
+                                Opacity(
+                                  opacity: 0.1,
+                                  child: SvgPicture.asset(
+                                      ImgAssets.home_card_shape
+                                  ),
+                                ),
+                                Column(
+                                  children: [
+                                    5.verticalSpace,
+                                    Text(AppLocalizations.of(context)!.today_orders,
+                                      style: const TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: AppDimens.xxLargeFontSize
+                                      ),
+                                    ),
+                                    const Text("50",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w900,
+                                          fontSize: AppDimens.xxxLargeFontSize
+                                      ),
+                                    ),
+
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        const Text("34.5",
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: AppDimens.xxLargeFontSize
+                                          ),
+                                        ),
+                                        10.horizontalSpace,
+                                        SvgPicture.asset(ImgAssets.arrow_down)
+                                      ],
+                                    ),
+                                    Text(AppLocalizations.of(context)!.compared_to_last_week,
+                                      style: const TextStyle(
+                                          color: Colors.white,
+                                          fontSize: AppDimens.smallFontSize
+                                      ),
+                                    ),
+                                    5.verticalSpace
+                                  ],
+                                )
+
+                              ],
+                            )),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 1,
+                      child:
+                      Card(
+                        elevation: 5,
+                        margin: EdgeInsets.all(10.w),
+                        color:AppColors.home_card_revenue ,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Container(
+                            alignment: Alignment.center,
+                            child: Stack(
+                              alignment: Alignment.bottomLeft,
+                              children: [
+                                Opacity(
+                                  opacity: 0.1,
+                                  child: SvgPicture.asset(
+                                      ImgAssets.home_card_shape
+                                  ),
+                                ),
+                                Column(
+                                  children: [
+                                    5.verticalSpace,
+                                    Text(AppLocalizations.of(context)!.today_revenue,
+                                      style: const TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: AppDimens.xxLargeFontSize
+                                      ),
+                                    ),
+                                    const Text("\u0024 150",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w900,
+                                          fontSize: AppDimens.xxxLargeFontSize
+                                      ),
+                                    ),
+
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        const Text("17.5",
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: AppDimens.xxLargeFontSize
+                                          ),
+                                        ),
+                                        10.horizontalSpace,
+                                        SvgPicture.asset(ImgAssets.arrow_up,)
+                                      ],
+                                    ),
+                                    Text(AppLocalizations.of(context)!.compared_to_last_week,
+                                      style: const TextStyle(
+                                          color: Colors.white,
+                                          fontSize: AppDimens.smallFontSize
+                                      ),
+                                    ),
+                                    5.verticalSpace
+                                  ],
+                                )
+
+                              ],
+                            )),
+                      ),
+                    ),
+
+                  ],
+                ),
                 Row(
                   children: [
                     Expanded(
@@ -354,17 +354,20 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                     ),
                                     10.verticalSpace,
 
-
                                     PieChart(
                                       dataMap: dataMap,
                                       animationDuration: Duration(milliseconds: 800),
                                       chartLegendSpacing: 32,
                                       chartRadius: MediaQuery.of(context).size.width / 3.5,
-                                      colorList: [Colors.yellow, Colors.red, Colors.green] ,
+                                      colorList: const [
+                                        AppColors.home_card_orders,
+                                        AppColors.home_card_clients,
+                                        AppColors.home_card_products
+                                      ] ,
                                       initialAngleInDegree: 0,
                                       chartType: ChartType.ring,
                                       ringStrokeWidth: 32,
-                                      centerText: "HYBRID",
+                                      // centerText: "HYBRID",
                                       legendOptions: const LegendOptions(
                                         showLegendsInRow: false,
                                         legendPosition: LegendPosition.right,
@@ -385,7 +388,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                       // emptyColorGradient: ---Empty Color gradient---
                                     ),
                                     15.verticalSpace,
-
 
                                     Row(
                                       children: [
