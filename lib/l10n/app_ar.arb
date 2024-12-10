@@ -1,0 +1,45 @@
+{
+  "lblTryAgain": "حاول مجددا",
+  "lblSomethingWentWrong": "حدث خطأ ما",
+
+
+  "welcome_to_app": "اهلا بك في تطبيق \n اوفر بالجملة",
+  "you_must_select_lang_first": "يجب عليك اختيار لغة التطبيق اولا",
+
+  "language": "اللغة",
+  "select_lang": "قم باختيار اللغة",
+  "arabic": "العربية",
+  "english": "English",
+  "next": "التالي",
+
+  "welcome_back": "أهلا بعودتك",
+  "log_in": "قم بتسجيل الدخول",
+  "phone_number": "رقم الجوال",
+  "enter_phone_number": "ادخل رقم الجوال",
+  "password": "كلمة المرور",
+  "enter_password": "ادخل كلمة المرور",
+  "did_you_forget_password": "هل نسيت كلمه المرور ؟",
+  "login": "تسجيل الدخول",
+
+  "hello": "مرحبا",
+  "home": "الرئيسية",
+  "orders": "الطلبات",
+  "products": "المنتجات",
+  "more": "المزيد",
+
+
+  "today_orders": "طلبات اليوم",
+  "today_revenue": "ايرادات اليوم",
+  "today_clients": "عملاء اليوم",
+  "today_products": "منتجات اليوم",
+  "compared_to_last_week": "مقارنة بالاسبوع الماضي",
+  "orders_statistics": "احصائيات الطلبات",
+  "markets_statistics": "احصائيات المتاجر",
+  "clients": "العملاء",
+  "categories": "التصنيفات",
+  "completed_orders": "الطلبات المكتملة",
+  "canceled_orders": "الطلبات الملغاة",
+  "in_progress_orders": "طلبات قيد التنفيذ"
+
+
+}

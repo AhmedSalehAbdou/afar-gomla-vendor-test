@@ -1,0 +1,43 @@
+{
+  "lblTryAgain": "Try Again",
+  "lblSomethingWentWrong": "Something Went Wrong",
+
+
+  "welcome_to_app": "Welcome to \n awfar gomla app",
+  "you_must_select_lang_first": "You must select lang first",
+  "language": "Language",
+  "select_lang": "Select language",
+  "arabic": "العربية",
+  "english": "English",
+  "next": "Next",
+
+  "welcome_back": "Welcome back",
+  "log_in": "Login now",
+  "phone_number": "Mobile number",
+  "enter_phone_number": "Enter mobile number",
+  "password": "Password",
+  "enter_password": "Enter password",
+  "did_you_forget_password": "Did you forget your password ?",
+  "login": "Log in",
+
+
+  "hello": "Hello",
+  "home": "Home",
+  "orders": "Orders",
+  "products": "Products",
+  "more": "More",
+
+
+  "today_orders": "Today's orders",
+  "today_revenue": "Today's revenue",
+  "today_clients": "Today's customers",
+  "today_products": "Today's products",
+  "compared_to_last_week": "Compared to last week",
+  "orders_statistics": "Order statistics",
+  "markets_statistics": "Store statistics",
+  "clients": "Customers",
+  "categories": "Categories",
+  "completed_orders": "Completed orders",
+  "canceled_orders": "Cancelled orders",
+  "in_progress_orders": "Orders in progress"
+}
